@@ -7,6 +7,7 @@ import { MapaComponent } from './mapa/mapa.component';
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
 import { PerfilesUsuariosComponent } from './perfiles-usuarios/perfiles-usuarios.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 
 
@@ -18,6 +19,7 @@ const routes : Routes =[
 {path: 'perfil-usuario', component:PerfilUsuarioComponent },
 {path: 'perfiles-usuarios', component:PerfilesUsuariosComponent },
 {path: 'contacto', component:ContactoComponent },
+{path: 'busqueda', component:BusquedaComponent },
 ]  
 
 @NgModule({

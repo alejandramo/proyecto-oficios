@@ -1,5 +1,84 @@
-body {
-    Background-color: DarkSeaGreen; 
+
+div.background-img{
+    height: 1200px;
+    margin: 0;
+    background-image: url("/assets/background-oficios.jpg");
+    background-size: cover;
+    background-repeat: none;
+    background-color: coral;
+ }
+
+ /*PC*/
+ .text-intro{
+    text-align: center;
+    font-size: 3em;
+    font-family: "Pt Sans";
+    line-height: 1.1;
+    background-color: #FFD834;
+   
+}
+.textintro{
+   display: inline-block;
+   float: left;
+   margin-left: 20% ; 
+   margin-top: 35%;
 }
 
+/* ESTILOS BOTONES*/
+.button-inicio {
+    background-color: #FFD834;
+    border-radius: 5px;
+    border: none;
+    color: black;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 4px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
+.button-registro {
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid white; 
+    margin: 4px;;
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 1px;
+    cursor: pointer;
+    justify-content: flex-end;
+}
 
+.button-inicio:hover {
+    background-color: rgb(255, 102, 102);
+    color: white;
+    padding: 15px 22px;
+}
+
+.button-registro:hover {
+    background-color:rgb(73, 73, 73);
+    color: white;
+    padding: 15px 22px;
+}
+
+.button-container{
+    display: flex;
+    margin-top: 1%;
+    margin-right: 1%;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    float: right;
+}

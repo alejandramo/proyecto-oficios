@@ -10,6 +10,7 @@ import { PerfilesUsuariosComponent } from './perfiles-usuarios/perfiles-usuarios
 import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.component';
 import { MapaComponent } from './mapa/mapa.component';
 import { ContactoComponent } from './contacto/contacto.component';
+import { BusquedaComponent } from './busqueda/busqueda.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { ContactoComponent } from './contacto/contacto.component';
     PerfilesUsuariosComponent,
     PerfilUsuarioComponent,
     MapaComponent,
-    ContactoComponent
+    ContactoComponent,
+
+    BusquedaComponent
   ],
   imports: [
     BrowserModule,
