@@ -9,24 +9,27 @@ div.background-img{
  }
 
  .search-container{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    background-color: rgb(233, 223, 78);
-    width: 50%;
-    margin-top: 20%;
-    margin-left: 25%;
-    float: left;
-    border-radius: 10px;
-    padding: 20px;
+     background-color:  rgba(255, 214, 52, 0.74);
+     align-content: space-around;
+     width: 50%;
+     margin-top: 20%;
+     margin-left: 25%;
+     float: left;
+     border-radius: 10px;
+     padding: 10px;
+    }
+    
+.search-container form {
+
+    display: flex;
+    align-content: space-around;
 }
 
  .seccion-busqueda{
     display:inline;
-    background-color: rgba(232, 250, 73, 0.8);
-    border: 2px solid rgba(0, 0, 0, 0.8);
     padding: 10px;
-    font-size: 30px;
-    line-height: 80px;
+    font-size: 22px;
+    line-height: 70px;
     text-align: center;
 }
 
@@ -59,10 +62,8 @@ div.background-img{
     background-color: #f1f1f1;
 }
 
-
 #enviar-busqueda{
     display: inline;
-    width: 20%;
     background-color: black;
     border-radius: 5px;
     border: 2px solid white; 

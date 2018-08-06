@@ -2,7 +2,7 @@
 
 .contenedor-tarjetas {
     display: grid;
-    grid-template-columns:auto auto;
+    grid-template-columns: 1fr 1fr;
     background-color: rgb(252, 252, 252);
     padding-top: 10%;
     padding-left: 20%;
@@ -10,30 +10,32 @@
   }
   .tarjeta-usuario {
     display: grid;
+    grid-template-columns: 1fr 2fr;
     background-color: #FFD834;
-    border: 15px solid white;
+    border: 30px solid white;
     padding: 2px;
-    height: 280px;
-    width: 500px;
+    height: 230px;
+    width: 420px;
     text-align: center;
   }
 
   .seccion-imagen {
-      display: inline;
+    display: inline;
     background-color: rgb(32, 30, 20);
     border: none;
     padding: 2px;
-    height: 280px;
+    height: 180px;
     width: 160px;
     text-align: center;
   }
 
   .contenedor-foto{
-    background-color: rgb(180, 180, 23);
-    border: 2px solid rgba(128, 28, 28, 0.8);
-    height: 150px;
-    width: 150px;
-    padding: 10px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(214, 210, 210);
+    height: 120px;
+    width: 120px;
+
     color: aliceblue;
   }
   
@@ -42,17 +44,35 @@
       font-size: 20px;
       text-transform: uppercase;
       font-family: Arial, Helvetica, sans-serif;
-      padding: 1px 4px 2px 1px;
-      background: rgb(141, 63, 180)
+      padding: 1px 1px 2px 1px;
+      background: rgb(255, 255, 255)
   }
   
  .contenedor-texto{
         display: grid;
-        position: absolute;
-        align-content: center;
-        background-color: rgb(45, 80, 175);
+        align-content: space-around;
+        background-color:white;
         border: none;
         padding-right: 2px;
-        height: 280px;
-        width: 360px;
+        height: 210px;
+        width: 240px;
  }
+
+ h1.nombre {
+   display: inline;
+   font-family: Roboto;
+   font-size: 18px;
+   padding-right: 10px;
+ }
+
+ h1.apellido{
+  display: inline;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+.resumen-usuario{
+    display: inline;
+    font-family: Roboto;
+    font-size: 18px;
+  } 
