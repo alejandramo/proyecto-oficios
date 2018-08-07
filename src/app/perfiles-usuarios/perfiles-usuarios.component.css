@@ -21,7 +21,7 @@
 
   .seccion-imagen {
     display: inline;
-    background-color: rgb(32, 30, 20);
+    background-color:  #FFD834;
     border: none;
     padding: 2px;
     height: 180px;
@@ -32,20 +32,20 @@
   .contenedor-foto{
     display: flex;
     align-items: center;
-    background-color: rgb(214, 210, 210);
+    margin:4px solid #FFD834;
+    padding-left: 10px;
+    padding-top: 10px;
     height: 120px;
     width: 120px;
-
-    color: aliceblue;
   }
   
   .estrellas{
       text-align: center;
-      font-size: 20px;
+      font-size: 35px;
       text-transform: uppercase;
       font-family: Arial, Helvetica, sans-serif;
       padding: 1px 1px 2px 1px;
-      background: rgb(255, 255, 255)
+  
   }
   
  .contenedor-texto{
@@ -63,6 +63,7 @@
    font-family: Roboto;
    font-size: 18px;
    padding-right: 10px;
+   padding-top: 10px;
  }
 
  h1.apellido{
@@ -76,3 +77,4 @@
     font-family: Roboto;
     font-size: 18px;
   } 
+
