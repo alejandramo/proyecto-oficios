@@ -1,0 +1,12 @@
+.container-mod{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top:5%;
+}
+.container-text{
+    display: flex;
+    align-content: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}

@@ -16,7 +16,7 @@ div.background-img{
      margin-left: 25%;
      float: left;
      border-radius: 10px;
-     padding: 10px;
+     padding: 5px;
     }
     
 .search-container form {
@@ -27,9 +27,9 @@ div.background-img{
 
  .seccion-busqueda{
     display:inline;
-    padding: 10px;
-    font-size: 22px;
-    line-height: 70px;
+    padding: 5px;
+    font-size: 20px;
+    line-height: 50px;
     text-align: center;
 }
 
@@ -37,8 +37,8 @@ div.background-img{
      color: rgb(0, 0, 0);
      font-family: Roboto;
      text-transform: uppercase;
-     padding-top: 15px;
-     padding-left: 20px;
+     padding-top: 10px;
+     padding-left: 10px;
  }
 
 #listadeoficios{
@@ -50,14 +50,14 @@ div.background-img{
     background-color: white;
     background-position: 10px 10px; 
     background-repeat: no-repeat;
-    padding: 5px 15px 8px 15px; 
+    padding: 5px 5px 8px 5px; 
 }
 
 #delegacion {
-    padding: 10px 20px 10px 0px;
-    margin: 10px;
+    padding: 10px 2px 10px 0px;
+    margin: 5px;
     border: none;
-    font-size: 16px;
+    font-size: 12px;
     border-radius: 4px;
     background-color: #f1f1f1;
 }
@@ -73,8 +73,8 @@ div.background-img{
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16px;
-    margin: 4px 1px;
+    font-size: 14px;
+    margin: 4px 15px;
     cursor: pointer;
     justify-self: end;
 }
