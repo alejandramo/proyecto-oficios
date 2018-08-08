@@ -34,6 +34,7 @@
       align-content: initial;
       text-align: left;
     }
+    
     .contenido-general{
       position: absolute;
       grid-row: 1;

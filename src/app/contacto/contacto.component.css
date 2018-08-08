@@ -1,7 +1,10 @@
+<<<<<<< HEAD
 .background-white{
     height: 1200px;
 }
 
+=======
+>>>>>>> 7d4f31d4e00e4092c80650e362cc452e8add0533
 
 .container-form{
     margin-left: 25%;
@@ -79,6 +82,7 @@ input[type=submit]:hover {
         width: 100%;
         margin-top: 0;
     }
+<<<<<<< HEAD
 }
 
 
@@ -91,3 +95,6 @@ input[type=submit]:hover {
     background: #ddd;
     margin-top: 0px;
   }
+=======
+}
+>>>>>>> 7d4f31d4e00e4092c80650e362cc452e8add0533
