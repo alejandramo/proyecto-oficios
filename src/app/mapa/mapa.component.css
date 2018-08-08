@@ -1,0 +1,30 @@
+.background-white{
+    height: 1200px;;
+}
+
+
+.container-mod{
+    width: 60%;
+    padding-left: 20%;
+    padding-right: 10%;
+    padding-top:5%;
+}
+.container-text{
+    display: flex;
+    align-content: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    
+}
+
+
+
+
+/* Footer */
+.footer {
+    position: flex;
+    margin-bottom: 1px;
+    padding: 60px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 0px;
+  }

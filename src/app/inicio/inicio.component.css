@@ -11,7 +11,7 @@ div.background-img{
  /*PC*/
  .text-intro{
     text-align: center;
-    font-size: 3em;
+    font-size: 5vw;
     font-family: "Pt Sans";
     line-height: 1.1;
     background-color: #FFD834;
@@ -20,8 +20,8 @@ div.background-img{
 .textintro{
    display: inline-block;
    float: left;
-   margin-left: 20% ; 
-   margin-top: 35%;
+   margin-left: 20% ;
+   margin-top: 28%;
 }
 
 /* ESTILOS BOTONES*/
@@ -81,4 +81,13 @@ div.background-img{
     display: -webkit-flex;
     display: flex;
     float: right;
+}
+
+
+/* Footer */
+.footer {
+    padding: 60px;
+    text-align: center;
+    background: #ddd;
+    margin-top: 0px;
 }

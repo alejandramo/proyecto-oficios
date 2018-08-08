@@ -4,7 +4,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(252, 252, 252);
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 20%;
     padding-right: 20%;
   }
@@ -13,7 +13,7 @@
     grid-template-columns: 1fr 2fr;
     background-color: #FFD834;
     border: 30px solid white;
-    padding: 2px;
+    padding: 10px;
     height: 230px;
     width: 420px;
     text-align: center;
@@ -78,3 +78,13 @@
     font-size: 18px;
   } 
 
+
+/* Footer */
+.footer {
+  position: flex;
+  margin-bottom: 1px;
+  padding: 60px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 80px;
+}
