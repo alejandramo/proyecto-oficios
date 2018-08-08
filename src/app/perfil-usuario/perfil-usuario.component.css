@@ -13,45 +13,46 @@
   }
 
 .linea1{
-    display: inline-block;
-    grid-row: 1;
+    display: grid;
+    grid-row: 1fr 1fr;
     background-color: #FFD834;
     border: 1px solid white;
     padding: 1px;
     height: 50px;
-    width: 700px;
+    width: 200px;
     text-align: center;
+    text-transform: uppercase;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
   }
 
     .foto-usuario{
-      grid-row: 1;
+      grid-row: 1fr fr;
       background-color: #FFD834;
       border: 1px solid white;
       padding: 1px;
-      height: 100px;
-      width: 100px;
+      height: 150px;
+      width: 150px;
       align-content: initial;
       text-align: left;
     }
     
     .contenido-general{
-      position: absolute;
-      grid-row: 1;
+      display: inline-block;
+      grid-row: 2fr;
       background-color: #FFD834;
       border: 1px solid white;
       padding: 1px;
-      height: 100px;
-      width: 100px;
+      height: 150px;
+      width: 450px;
       text-align: left;
-
     }
 
   .linea2{
-        display: inline-block;
+        display: grid;
+        grid-template-columns: 1fr 3fr; 
         background-color: #FFD834;
         height: 200px;
         border: 1px solid white;
-        padding: 2px;
         width: 700px;
         text-align: center;
   }
@@ -60,7 +61,7 @@
     background-color: #FFD834;
     border: 5px solid white;
     padding: 2px;
-    height: 250px;
+    height: 300px;
     width: 700px;
     text-align: center;
   }
