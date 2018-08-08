@@ -1,11 +1,8 @@
-<<<<<<< HEAD
 .background-white{
     height: 1200px;;
 }
 
 
-=======
->>>>>>> 7d4f31d4e00e4092c80650e362cc452e8add0533
 .container-mod{
     width: 60%;
     padding-left: 20%;
@@ -17,21 +14,4 @@
     align-content: center;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     
-<<<<<<< HEAD
 }
-
-
-
-
-/* Footer */
-.footer {
-    position: flex;
-    margin-bottom: 1px;
-    padding: 60px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 0px;
-  }
-=======
-}
->>>>>>> 7d4f31d4e00e4092c80650e362cc452e8add0533
