@@ -19,9 +19,13 @@
     
 }
 
+#mapa-leaflet{
+    height: 600px;;
+}
 
 .container-map{
     margin-right: 10px;
+    width: 850px;
 }
 
 .btn-group .button {
