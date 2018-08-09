@@ -5,9 +5,9 @@
 .container-perfilcompleto{
     display: grid;
     grid-template-columns: 1fr; 
-    grid-gap: 2px;
+    grid-gap: 3px;
     background-color: rgb(252, 252, 252);
-    padding-top: 10%;
+    padding-top: 8%;
     padding-left: 25%;
     padding-right: 25%;
   }
@@ -17,19 +17,32 @@
     grid-row: 1fr 1fr;
     background-color: #FFD834;
     border: 1px solid white;
-    padding: 1px;
+    padding: 2px;
     height: 50px;
-    width: 200px;
-    text-align: center;
+    width: 300px;
+    text-align: left;
     text-transform: uppercase;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
   }
-
+  .categoria{
+    display: flow-root; 
+    text-transform: uppercase;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+  }
+  .categoria-b{
+    position: absolute;
+    display: inline-block;
+    padding: 4px;
+    margin: 5px;
+    background-color: #FFD834;
+  }
     .foto-usuario{
       grid-row: 1fr fr;
       background-color: #FFD834;
       border: 1px solid white;
-      padding: 1px;
+      padding: 5px;
       height: 150px;
       width: 150px;
       align-content: initial;
@@ -40,11 +53,14 @@
       display: inline-block;
       grid-row: 2fr;
       background-color: #FFD834;
-      border: 1px solid white;
-      padding: 1px;
-      height: 150px;
+      border: 8px solid white;
+      padding: 5px;
+      padding-left: 10px;
+      height: 180px;
       width: 450px;
       text-align: left;
+      font-size: 14px;
+      font-family: Roboto, Arial, Helvetica, sans-serif;
     }
 
   .linea2{
@@ -53,27 +69,51 @@
         background-color: #FFD834;
         height: 200px;
         border: 1px solid white;
-        width: 700px;
+        width: 900px;
         text-align: center;
   }
+
+
 
   .cont-trabajo{
     background-color: #FFD834;
     border: 5px solid white;
     padding: 2px;
     height: 300px;
-    width: 700px;
+    width: 900px;
     text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
   }
 
  .comentarios{
     background-color: #FFD834;
     border: 5px solid white;
     padding: 2px;
-    height: 150px;
-    width: 700px;
+    height: 250px;
+    width: 900px;
     text-align: center;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
   }
+
+  .botones{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-left: 45%;
+  }
+  .button1 {border-radius: 2px;}
+  
+
   
 /* Footer */
 .footer {

@@ -1,10 +1,23 @@
-
+.categoria{
+  display: flow-root; 
+  padding-left: 22%;
+  margin-top: 5%;
+  text-transform: uppercase;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.categoria-b{
+  display: inline-block;
+  padding: 4px;
+  margin: 5px;
+  background-color: #FFD834;
+}
 
 .contenedor-tarjetas {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: rgb(252, 252, 252);
-    padding-top: 8%;
+    padding-top: 2%;
     padding-left: 20%;
     padding-right: 20%;
   }
@@ -79,12 +92,28 @@
   } 
 
 
+  .botones{
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    padding-left: 45%;
+  }
+  .button1 {border-radius: 2px;}
+  
+
 /* Footer */
 .footer {
   position: flex;
   margin-bottom: 1px;
   padding: 60px;
   text-align: center;
-  background: #ddd;
+  background: rgb(0, 0, 0);
+  color: white;
   margin-top: 80px;
 }
