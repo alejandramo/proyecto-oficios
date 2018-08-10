@@ -9,10 +9,10 @@ div.background-img{
  }
 
  .search-container{
-     background-color:  rgba(255, 214, 52, 0.74);
+     background-color:  rgba(255, 214, 52, 0.863);
      align-content: space-around;
-     width: 50%;
-     margin-top: 20%;
+     width: 700px;
+     margin-top: 25%;
      margin-left: 25%;
      float: left;
      border-radius: 10px;
@@ -66,7 +66,7 @@ div.background-img{
     display: inline;
     background-color: black;
     border-radius: 5px;
-    border: 2px solid white; 
+    border: 2px solid rgb(0, 0, 0); 
     margin: 5px;;
     color: white;
     padding: 15px 20px 15px 20px;
@@ -79,10 +79,22 @@ div.background-img{
     justify-self: end;
 }
 
+#enviar-busqueda:hover:not(.active) {
+    background-color: rgba(0, 0, 0, 0.61);
+    color: rgb(255,255,255);
+    font-size: 18px;
+}
 
 /* Footer */
 .footer {
+    position: flex;
+    margin-bottom: 1px;
     padding: 60px;
     text-align: center;
-    background: #ddd;    
-}
+    background: rgb(0, 0, 0);
+    color: white;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+  }

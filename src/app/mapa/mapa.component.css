@@ -1,14 +1,16 @@
 .background-white{
-    height: 1100px;;
+    height: 1300px;;
 }
 
 .container-mod{
     display: flex;
-    width: 70%;
+    width: 1000px;
+    height: 1300px;
+    padding-top: 5px;;
     padding-left: 20%;
     padding-right: 10%;
-    padding-top:5%;
 }
+
 .container-text{
     display: block;
     align-content: center;
@@ -16,11 +18,10 @@
     padding-left: 20%;
     font-family: Roboto, Arial, Helvetica, sans-serif;
     text-transform: uppercase;
-    
 }
 
 #mapa-leaflet{
-    height: 600px;;
+    height: 650px;
 }
 
 .container-map{
@@ -61,5 +62,7 @@
     text-align: center;
     background: rgb(0, 0, 0);
     color: white;
-    margin-top: 80px;
+    margin-top: 0px;
+    font-size: 12px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
   }

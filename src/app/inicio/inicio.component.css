@@ -9,7 +9,7 @@ div.background-img{
  }
 
  /*PC*/
- .text-intro{
+ .text-intro{''
     text-align: center;
     font-size: 5vw;
     font-family: "Pt Sans";
@@ -86,8 +86,14 @@ div.background-img{
 
 /* Footer */
 .footer {
+    position: flex;
+    margin-bottom: 1px;
     padding: 60px;
     text-align: center;
-    background: #ddd;
+    background: rgb(0, 0, 0);
+    color: white;
     margin-top: 0px;
-}
+    font-size: 12px;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+
+  }

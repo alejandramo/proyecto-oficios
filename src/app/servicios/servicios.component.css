@@ -6,7 +6,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     background-color: rgb(252, 252, 252);
-    padding-top: 15%;
+    padding-top: 1%;
     padding-left: 20%;
     padding-right: 20%;
   }
@@ -16,6 +16,15 @@
     padding: 2px;
     height: 250px;
     text-align: center;
+  }
+
+  .serv{
+    padding-left: 22%;
+    color: black;
+    text-transform: uppercase;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 10%;
   }
 
   .oficio-nombre{
@@ -48,6 +57,10 @@
   margin-bottom: 1px;
   padding: 60px;
   text-align: center;
-  background: #ddd;
+  background: rgb(0, 0, 0);
+  color: white;
   margin-top: 0px;
+  font-size: 12px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+
 }

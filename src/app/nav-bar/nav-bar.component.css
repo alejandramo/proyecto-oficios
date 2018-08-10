@@ -9,10 +9,10 @@
     height: 100%;
     overflow: auto;
     font-family: Roboto;
-    font-size: 16px;
-    line-height: 3vw;
+    font-size: 18px;
+    line-height: 4vw;
     text-transform: uppercase;
-    background-color: rgba(255, 237, 77)
+    background-color: #FFD834;
  }
 
  ul.sidenav li a {
@@ -22,15 +22,10 @@
     text-decoration: none;
 }
 
-ul.sidenav li a.active {
-    color: rgb(0, 0, 0);
-}
-
 ul.sidenav li a:hover:not(.active) {
     background-color: rgba(0, 0, 0, 0.61);
     color: rgb(255,255,255);
     font-size: 22px;
-
 }
 
 .main {
@@ -38,6 +33,33 @@ ul.sidenav li a:hover:not(.active) {
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
 }
+
+.contenedor-redes{
+    float: right;
+    position: sticky;
+    margin-top: 12%;
+    align-content: center;
+    background-color: rgba(0, 0, 0, 0.541);
+    color: white;
+    width: 32px;
+    height: 100%;
+    padding: 5px;
+}
+
+ul.sidenav {
+    list-style-type: none;
+    margin: 0;
+    padding: 1%;
+    width: 15%;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: Roboto;
+    font-size: 18px;
+    line-height: 4vw;
+    text-transform: uppercase;
+    background-color: #FFD834;
+ }
 
 @media screen and (max-width: 900px) {
     ul.sidenav {
