@@ -55,6 +55,7 @@ div.background-img{
     margin: 4px 1px;
     cursor: pointer;
     justify-content: flex-end;
+
 }
 
 .button-inicio:hover {
@@ -81,6 +82,8 @@ div.background-img{
     display: -webkit-flex;
     display: flex;
     float: right;
+    position: fixed;
+    right:30px;
 }
 
 
