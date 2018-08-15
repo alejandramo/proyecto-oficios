@@ -8,6 +8,7 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 import { PerfilesUsuariosComponent } from './perfiles-usuarios/perfiles-usuarios.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
+import { AcercaDelProyectoComponent } from './acerca-del-proyecto/acerca-del-proyecto.component';
 
 
 
@@ -21,6 +22,7 @@ const routes : Routes =[
 {path: 'perfiles-usuarios', component:PerfilesUsuariosComponent },
 {path: 'contacto', component:ContactoComponent },
 {path: 'busqueda', component:BusquedaComponent },
+{path: 'acerca-del-proyecto', component:AcercaDelProyectoComponent},
 ]  
 
 @NgModule({

@@ -12,6 +12,7 @@ import { MapaComponent } from './mapa/mapa.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
 import { LoginComponent } from './login/login.component';
+import { AcercaDelProyectoComponent } from './acerca-del-proyecto/acerca-del-proyecto.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,9 @@ import { LoginComponent } from './login/login.component';
 
     BusquedaComponent,
 
-    LoginComponent
+    LoginComponent,
+
+    AcercaDelProyectoComponent
   ],
   imports: [
     BrowserModule,
