@@ -11,6 +11,7 @@ import { PerfilUsuarioComponent } from './perfil-usuario/perfil-usuario.componen
 import { MapaComponent } from './mapa/mapa.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { BusquedaComponent } from './busqueda/busqueda.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,9 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
     MapaComponent,
     ContactoComponent,
 
-    BusquedaComponent
+    BusquedaComponent,
+
+    LoginComponent
   ],
   imports: [
     BrowserModule,
