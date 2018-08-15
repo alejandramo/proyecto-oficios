@@ -1,5 +1,5 @@
 .background-white{
-    height: 1000px;
+    min-height: calc(100vh - 60px);
 }
 
 .container-form{
@@ -80,8 +80,6 @@ input[type=submit]:hover {
         margin-top: 0;
     }
 }
-
-
 
 /* Footer */
 .footer {

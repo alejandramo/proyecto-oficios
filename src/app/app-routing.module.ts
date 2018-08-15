@@ -14,6 +14,7 @@ import { BusquedaComponent } from './busqueda/busqueda.component';
 const routes : Routes =[ 
 {path: 'nav-bar', component:NavBarComponent },
 {path: 'inicio', component:InicioComponent },
+{path: '', component:InicioComponent },
 {path: 'servicios', component:ServiciosComponent },
 {path: 'mapa', component:MapaComponent },
 {path: 'perfil-usuario', component:PerfilUsuarioComponent },
