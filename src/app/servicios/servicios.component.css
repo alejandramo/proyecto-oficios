@@ -72,3 +72,24 @@ a:link, a:visited {
   text-decoration: none;
   display: inline-block;
 }
+
+@media screen and (max-width: 900px) {
+  .contenedor-oficios {
+      width: 100%;
+      height: auto;
+      position: relative;
+  }
+  .seccion-oficio {
+      float: left;
+      padding: 15px;
+  }
+  div.content {margin-left: 0;}
+}
+
+@media screen and (max-width: 400px) {
+  .contenedor-oficios {
+    width: 30%;
+    height: auto;
+    position: relative;
+}
+}

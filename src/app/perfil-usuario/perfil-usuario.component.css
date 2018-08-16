@@ -19,7 +19,7 @@
     border: 1px solid white;
     padding: 2px;
     height: 50px;
-    width: 300px;
+    width: 350px;
     text-align: left;
     text-transform: uppercase;
     font-family: Roboto, Arial, Helvetica, sans-serif;
@@ -41,7 +41,7 @@
     .foto-usuario{
       grid-row: 1fr fr;
       background-color: #FFD834;
-      border: 1px solid white;
+  
       padding: 5px;
       height: 150px;
       width: 150px;
@@ -73,7 +73,6 @@
         text-align: center;
         
   }
-
 
 
   .cont-trabajo{
@@ -113,8 +112,6 @@
     padding-left: 45%;
   }
   .button1 {border-radius: 2px;}
-  
-
   
 /* Footer */
 .footer {

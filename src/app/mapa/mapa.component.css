@@ -1,8 +1,10 @@
 
+
 .container-mod{
     display: flex;
     width: 1000px;
-    height: 800px;
+    height: 1300px;
+    padding-top: 5px;;
     padding-left: 20%;
     padding-right: 10%;
 }
@@ -49,7 +51,6 @@
     color:white;
 }
 
-
 /* Footer */
 .footer {
     position: flex;
@@ -62,6 +63,7 @@
     margin-top: 0px;
     font-size: 12px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
+  
   }
   
   a:link, a:visited {

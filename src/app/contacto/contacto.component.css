@@ -1,5 +1,5 @@
 .background-white{
-    min-height: calc(100vh - 60px);
+    min-height: calc(100vh - 50px);
 }
 
 .container-form{
@@ -78,6 +78,7 @@ input[type=submit]:hover {
     .col-25, .col-75, .enviar{
         width: 100%;
         margin-top: 0;
+        height: auto;
     }
 }
 
