@@ -81,9 +81,11 @@ input[type=submit]:hover {
     }
 }
 
+
 /* Footer */
 .footer {
     position: flex;
+    text-decoration: none;
     margin-bottom: 1px;
     padding: 60px;
     text-align: center;
@@ -92,5 +94,13 @@ input[type=submit]:hover {
     margin-top: 0px;
     font-size: 12px;
     font-family: Roboto, Arial, Helvetica, sans-serif;
-
+  
+  }
+  
+  a:link, a:visited {
+    color: #FFD834;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
   }
